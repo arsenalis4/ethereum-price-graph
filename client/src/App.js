@@ -80,7 +80,7 @@ export default function App() {
       // 인터벌을 정지함
       clearInterval(interval);
     };
-  }, []);
+  }, [price]);
 
   // 사용자가 가격을 입력할 때 실행할 함수
   const handleChange = (event) => {
